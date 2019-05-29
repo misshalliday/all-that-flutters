@@ -1,0 +1,19 @@
+//Changing the background color of Scaffold
+//Adding an AppBar with color and text
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+          backgroundColor: Colors.limeAccent,
+          appBar: AppBar(
+              title: Text('Still learning'),
+              backgroundColor: Colors.amberAccent,
+
+    ), // AppBar
+  ), // Scaffold
+), // MaterialApp
+);
+}
